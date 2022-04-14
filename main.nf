@@ -27,7 +27,7 @@
  * Each of the following parameters can be specified as command line options
  */
 params.query = "s://blast_example/data/sample.fa"
-params.db = "s://blast_example/blast-db/pdb/tiny"
+params.db = "$baseDir/blast-db/pdb/tiny"
 params.out = "result.txt"
 params.chunkSize = 100 
 
