@@ -26,7 +26,7 @@
  * Defines the pipeline inputs parameters (giving a default value for each for them) 
  * Each of the following parameters can be specified as command line options
  */
-params.query = "s://blast_example/data/sample.fa"
+params.query = "s3://blast_example/data/sample.fa"
 params.db = "$baseDir/blast-db/pdb/tiny"
 params.out = "result.txt"
 params.chunkSize = 100 
